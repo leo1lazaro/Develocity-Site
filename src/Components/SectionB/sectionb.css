@@ -1,0 +1,22 @@
+.section-b-home{
+    display: flex;
+    justify-content: space-around;
+    height: 45vh;
+    padding: 2em 0;
+    background-color: #131313;
+}
+.card-b-home{
+    width: 23vw;
+}
+.card-um{
+    background-image: url('../../Images/SERV1_PRONTO.png');
+    background-size: 100% 100%;
+}
+.card-dois{
+    background-image: url('../../Images/SERV2.png');
+    background-size: 100% 100%;
+}
+.card-tres{
+    background-image: url('../../Images/SERV3_PRONTO.png');
+    background-size: 100% 100%;
+}

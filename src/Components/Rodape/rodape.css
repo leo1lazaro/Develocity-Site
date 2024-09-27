@@ -1,0 +1,39 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 1em 0;
+    gap: 1em;
+}
+.rodape-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 1em 4em;
+}
+.rodape-primeira-section{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    place-self: center;
+    margin-top: 1em;
+}
+.rodape-imagens-primeira-section{
+    margin-top: 1em;
+}
+.rodape-imagens-primeira-section img{
+    width: 40px;
+    margin-right: 1em;
+}
+.rodape-info{
+    place-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+.rodape-img-final{
+    place-self: center;
+}
+.rodape-mapa-do-site h2,.rodape-contato h2{
+    margin: 1em 0 0 0;
+} 
