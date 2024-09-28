@@ -1,0 +1,16 @@
+.card-section-a-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.card-section-a-home>img{
+    width: 150px;
+}
+.card-section-a-home> p{
+    color: white;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70%;
+    font-size: 35px;
+}

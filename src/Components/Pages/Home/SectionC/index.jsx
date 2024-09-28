@@ -1,5 +1,5 @@
 import './sectionc.css';
-import img001 from '../../Images/img_orçamento.png'
+import img001 from '../../../../Images/img_orçamento.png'
 
 import React from 'react'
 

@@ -1,18 +1,29 @@
 import './App.css';
 import Navbar from './Components/NavBar';
-import SectionA from './Components/SectionA';
 import Rodape from './Components/Rodape';
-import SectionB from './Components/SectionB';
-import SectionC from './Components/SectionC';
+import Home from './Components/Pages/Home';
+import Contatos from './Components/Pages/Contatos';
+import Servicos from './Components/Pages/Servicos';
+import QuemSomos from './Components/Pages/QuemSomos';
 
 function App() {
+  //para vermos as diferentes telas basta alterarmos
+  //o nome da pagina visivel com as seguintes opcoes
+  //opcoes home, quemSomos, servicos, contatos
+
+  const paginaVisivel = 'contatos'; //altere somente nessa linha
 
   return (
     <div className="App">
       <Navbar />
-        <SectionA />
-        <SectionB />
-        <SectionC />
+        {paginaVisivel === 'home' &&
+        <Home />}
+        {paginaVisivel === 'contatos' &&
+        <Contatos />}
+        {paginaVisivel === 'servicos' &&
+        <Servicos />}
+        {paginaVisivel === 'quemSomos' &&
+        <QuemSomos />}
       <Rodape />
     </div>
   );
