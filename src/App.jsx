@@ -11,7 +11,7 @@ function App() {
   //o nome da pagina visivel com as seguintes opcoes
   //opcoes home, quemSomos, servicos, contatos
 
-  const paginaVisivel = 'contatos'; //altere somente nessa linha
+  const paginaVisivel = 'quemSomos'; //altere somente nessa linha
 
   return (
     <div className="App">

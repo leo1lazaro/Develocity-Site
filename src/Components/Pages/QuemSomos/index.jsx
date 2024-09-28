@@ -1,9 +1,10 @@
 import React from 'react'
+import SectionAQuemSomos from './SectionAQuemSomos'
 
 const QuemSomos = () => {
   return (
     <>
-     <h1>Quem somos</h1>
+     <SectionAQuemSomos />
     </>
   )
 }
