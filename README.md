@@ -45,29 +45,6 @@ Você pode aprender mais na documentação do Create React App.
 
 Para aprender React, confira a documentação do React.
 
-### Divisão de Código
-
-Esta seção foi movida para aqui.
-
-### Analisando o Tamanho do Pacote
-
-Esta seção foi movida para aqui.
-
-### Criando um Progressive Web App
-
-Esta seção foi movida para aqui.
-
-### Configuração Avançada
-
-Esta seção foi movida para aqui.
-
-### Implantação
-
-Esta seção foi movida para aqui.
-
-### `npm run build` falha ao minificar
-
-Esta seção foi movida para aqui.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
