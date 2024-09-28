@@ -1,0 +1,35 @@
+.section-a-quemsomos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 4em 4em;
+    background-color: #131313;
+    color: white;
+    min-height: 88vh;
+}
+.section-a-quemsomos-img-palestra{
+    position: relative;
+    width: 450px;
+}
+.section-a-quemsomos-img-logo{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section-a-quemsomos-textos{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+}
+.section-a-quemsomos-textos-titulo{
+    font-size: 40px;
+}
+.section-a-quemsomos-textos-paragrafo{
+    font-size: 20px;
+}
