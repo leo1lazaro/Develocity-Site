@@ -5,24 +5,23 @@ import Home from './Components/Pages/Home';
 import Contatos from './Components/Pages/Contatos';
 import Servicos from './Components/Pages/Servicos';
 import QuemSomos from './Components/Pages/QuemSomos';
+import { useContext } from 'react';
+import PaginaAtualContext from './Contexts/PaginaAtualContext';
 
 function App() {
-  //para vermos as diferentes telas basta alterarmos
-  //o nome da pagina visivel com as seguintes opcoes
-  //opcoes home, quemSomos, servicos, contatos
-
-  const paginaVisivel = 'home'; //altere somente nessa linha
+  
+  const {paginaAtual} = useContext(PaginaAtualContext)
 
   return (
     <div className="App">
       <Navbar />
-        {paginaVisivel === 'home' &&
+        {paginaAtual === 'home' &&
         <Home />}
-        {paginaVisivel === 'contatos' &&
+        {paginaAtual === 'contatos' &&
         <Contatos />}
-        {paginaVisivel === 'servicos' &&
+        {paginaAtual === 'servicos' &&
         <Servicos />}
-        {paginaVisivel === 'quemSomos' &&
+        {paginaAtual === 'quemSomos' &&
         <QuemSomos />}
       <Rodape />
     </div>

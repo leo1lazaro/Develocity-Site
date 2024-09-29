@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import PaginaAtualProvider from './Providers/PaginaAtualProvider';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
-  <App />
+  <PaginaAtualProvider>
+    <App />
+  </PaginaAtualProvider>
 
 );
 
