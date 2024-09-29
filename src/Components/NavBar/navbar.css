@@ -1,17 +1,103 @@
-.navbar{
+/* Estilos gerais da navbar */
+.navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1em 0;
-    width: 100vw;
-    background-color: white;
+    background-color: #333;
+    padding: 10px 20px;
 }
-.navbar>.links{
+
+.navbar img {
+    max-width: 60px;
+    border-radius: 50px;
+}
+
+.links {
     display: flex;
-    gap: 4em;
+    gap: 20px;
 }
-.navbar> .links> a{
+
+.links a {
+    color: white;
     text-decoration: none;
-    color: black;
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.links a:hover {
+    background-color: #444;
+    border-radius: 6px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: 0.1s;
+}
+
+.hamburger.open span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+@media (max-width: 629px) {
+    .links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 4em;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        z-index: 10;
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .links a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        background-color: #444;
+    }
+
+    .links a:hover {
+        background-color: #555;
+    }
+}
+
+@media (min-width: 630px) {
+    .navbar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
 }
