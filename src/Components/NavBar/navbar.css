@@ -4,11 +4,12 @@
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    padding: 10px 20px;
+    padding: 10px 50px;
+    height: 120px;
 }
 
 .navbar img {
-    max-width: 60px;
+    max-width: 40px;
     border-radius: 50px;
 }
 
