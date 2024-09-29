@@ -9,7 +9,7 @@
 }
 
 .navbar img {
-    max-width: 40px;
+    max-width: 80px;
     border-radius: 50px;
 }
 
@@ -60,7 +60,7 @@
     transform: translateY(-11px) rotate(-45deg);
 }
 
-@media (max-width: 629px) {
+@media (max-width: 680px) {
     .links {
         display: none;
         flex-direction: column;
