@@ -1,7 +1,7 @@
 import React from 'react'
 import './rodape.css';
 import imgRodapeLogo from '../../Images/rodapeLogo.jpg'
-import imgRodapeFinal from '../../Images/imgRodapeFinal.jpg'
+import imgRodapeFinal from '../../Images/imgRodapeFinal.png'
 import imgLogoInsta from '../../Images/instaLogo.jpg'
 import imgLogoLinkedin from '../../Images/linkedinLogo.jpg'
 

@@ -11,6 +11,7 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
+
   return (
     <section className='navbar'>
       <img src={imgLogo} alt='Logo' style={{ width: '90px', borderRadius: '50px' }} />

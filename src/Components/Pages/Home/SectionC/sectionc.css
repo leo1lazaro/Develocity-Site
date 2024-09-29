@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Varino';
+    src: url('../../../../fonts/Varino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --font-principal: 'Varino', sans-serif;
+}
+
 .section-c-home{
     min-height: 65vh;
     width: 100vw;
@@ -19,21 +30,15 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.5em;
     align-items: center;
     color: white;
+    font-family: var(--font-principal);
+    text-align: center;
 }
 .section-c-home-textos-titulo{
     font-size: 50px;
 }
 .section-c-home-textos-paragrafo{
-    font-size: 20px;
-}
-.section-c-home-textos-botao{
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: orangered;
-    color: white;
-    font-size: 20px;
+    font-size: 18px;
 }

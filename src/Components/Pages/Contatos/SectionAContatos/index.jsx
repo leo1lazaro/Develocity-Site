@@ -1,6 +1,7 @@
 import React from 'react'
 import './sectionacontatos.css'
 import img001 from '../../../../Images/LOGO D.png'
+import Botao from '../../../Botao';
 
 const SectionAContatos = () => {
   return (
@@ -17,7 +18,7 @@ const SectionAContatos = () => {
             <input type="text" name="nome" id="nome" placeholder='Digite seu nome...' />
           </div>
           <div className='form-group'>
-            <label htmlFor="telefone">Telefone</label>
+            <label htmlFor="telefone">tel</label>
             <input type="tel" name="telefone" id="telefone" placeholder='Digite seu telefone...' />
           </div>
           <div className='form-group'>
@@ -25,7 +26,7 @@ const SectionAContatos = () => {
             <input type="email" name="email" id="email" placeholder='Digite seu email...' />
           </div>
           <textarea className='msg' placeholder='Digite sua mensagem aqui...'></textarea>
-          <button type='submit'>ENVIAR</button>
+          <Botao texto='Enviar' />
         </form>
       </div>
     </section>
