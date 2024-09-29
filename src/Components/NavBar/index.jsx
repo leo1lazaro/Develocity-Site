@@ -4,7 +4,7 @@ import imgLogo from '../../Images/LOGO D.png';
 import PaginaAtualContext from '../../Contexts/PaginaAtualContext';
 
 function Navbar() {
-  const { paginaAtual, setPaginaAtual } = useContext(PaginaAtualContext);
+  const {setPaginaAtual} = useContext(PaginaAtualContext);
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {

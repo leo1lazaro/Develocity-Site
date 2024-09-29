@@ -19,6 +19,7 @@
     padding: 4em 2em;
     min-height: 88vh;
     font-family: var(--font-principal);
+    margin-top: 120px;
 }
 .section-a-contatos-top{
     text-align: center;

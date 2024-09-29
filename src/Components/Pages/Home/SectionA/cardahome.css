@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Varino';
+    src: url('../../../../fonts/Varino.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --font-principal: 'Varino', sans-serif;
+}
 .card-section-a-home{
     display: flex;
     flex-direction: column;
@@ -12,5 +21,6 @@
     flex-wrap: wrap;
     text-align: center;
     width: 70%;
-    font-size: 35px;
+    font-size: 22px;
+    font-family: var(--font-principal);
 }
