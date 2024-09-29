@@ -6,7 +6,7 @@ import PaginaAtualContext from '../../Contexts/PaginaAtualContext'
 
 function Navbar() {
 
-  const {paginaAtual, setPaginaAtual} = useContext(PaginaAtualContext)
+  const {setPaginaAtual} = useContext(PaginaAtualContext)
 
   return (
     <section className='navbar'>

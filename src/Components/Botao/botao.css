@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Varino';
+    src: url('../../../src/fonts/Varino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --font-principal: 'Varino', sans-serif;
+}
+
+.botao-laranja{
+    background-color: #EF5702;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-family: var(--font-principal);
+    margin-top: 2em;
+    font-size: 20px;
+}

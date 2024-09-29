@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Varino';
+    src: url('../../../../fonts/Varino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --font-principal: 'Varino', sans-serif;
+}
 .section-a-quemsomos{
     display: flex;
     justify-content: space-around;
@@ -19,17 +28,19 @@
     left: 0;
 }
 .section-a-quemsomos-textos{
-    width: 600px;
+    width: 650px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 1.5em;
+    gap: 1em;
+    font-family: var(--font-principal);
 }
 .section-a-quemsomos-textos-titulo{
     font-size: 40px;
+    border-bottom: 2px solid #EF5702;
 }
 .section-a-quemsomos-textos-paragrafo{
-    font-size: 20px;
+    font-size: 18px;
 }

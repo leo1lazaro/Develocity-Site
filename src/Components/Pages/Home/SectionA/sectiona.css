@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Varino';
+    src: url('../../../../fonts/Varino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --font-principal: 'Varino', sans-serif;
+}
+
 .section-a-home{
     background-image: url('../../../../Images/IMAGEM\ INICIAL.jpg');
     background-repeat: no-repeat;
@@ -5,12 +16,6 @@
     height: 91.6vh;
     position: relative;
     overflow: hidden;
-}
-.section-a-home button{
-    background-color: #EF5702;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
 }
 .cards-section-a-home{
     display: grid;
@@ -26,18 +31,15 @@
     align-items: baseline;
     padding: 12em 0em 0 6em;
 }
-.section-a-home-itens button{
-    margin-top: 2em;
-    font-size: 20px;
-    font-weight: bold;
-}
 .home-itens-titulo{
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     max-width: 60%;
+    font-family: var(--font-principal);
 }
 .home-itens-texto{
     color: white;
-    font-size: 40px;   
-    max-width: 60%;
+    font-size: 30px;   
+    max-width: 50%;
+    font-family: var(--font-principal);
 }

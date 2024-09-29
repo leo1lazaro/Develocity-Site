@@ -4,6 +4,7 @@ import CardsSectionAHome from './CardSectionAHome'
 import img001 from '../../../../Images/ICON1.png'
 import img002 from '../../../../Images/ICON2.png'
 import img003 from '../../../../Images/ICON3.png'
+import Botao from '../../../Botao'
 
 
 function SectionA() {
@@ -12,7 +13,7 @@ function SectionA() {
       <div className='section-a-home-itens'>
         <h2 className='home-itens-titulo'>Na Develocity</h2>
         <p className='home-itens-texto'>Trabalhamos com os melhores profissionais de tecnologia para os projetos da sua empresa</p>
-        <button>Saiba mais</button>
+        <Botao texto='Saiba mais'/>
       </div>
       <div className='cards-section-a-home'>
         <CardsSectionAHome img={img001} texto="Inovação Tecnológica" />
