@@ -1,3 +1,5 @@
+site hospedado em: https://main.d1qp0urrwjm2e9.amplifyapp.com/
+
 # Começando com Create React App
 
 Este projeto foi inicializado com Create React App.
