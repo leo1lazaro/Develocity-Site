@@ -49,7 +49,7 @@
 .section-a-quemsomos-textos-paragrafo{
     font-size: 18px;
 }
-@media (max-width: 1900px) {
+@media (max-width: 1199px) {
     .section-a-quemsomos {
         flex-direction: column;
         align-items: center;
