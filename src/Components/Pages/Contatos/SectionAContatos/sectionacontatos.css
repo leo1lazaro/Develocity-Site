@@ -83,4 +83,8 @@
     .form-group input {
         width: calc(100% - 75px);
     }
-}
+    .section-a-contatos-corpo>img
+{
+    display: none;
+
+}}
