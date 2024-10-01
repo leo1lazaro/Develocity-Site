@@ -52,3 +52,50 @@
     max-width: 50%;
     font-family: var(--font-principal);
 }
+
+@media (max-width:480px) {
+    .section-a-home{
+        background-image: url('../../../../Images/IMAGEM\ INICIAL.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2em 3em;
+        gap: 2em;
+        margin-top: 120px;
+    }
+    .section-a-home button{
+        background-color: #EF5702;
+        width: 180px;
+        height: 70px;
+        border-radius: 10px;
+        color: white;
+    }
+    .cards-section-a-home{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-a-home-itens{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .home-itens-titulo{
+        color: white;
+        font-size: 30px;
+        max-width: 60%;
+        font-family: var(--font-principal);
+    }
+    .home-itens-texto{
+        color: white;
+        font-size: 15px;   
+        max-width: 50%;
+        font-family: var(--font-principal);
+    }
+    
+}
