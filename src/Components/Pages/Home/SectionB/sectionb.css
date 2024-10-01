@@ -1,11 +1,13 @@
 .section-b-home{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     height: 450px;
     padding: 2em 0;
     background-color: #131313;
 }
 .card-b-home{
+    border-radius: 5px;
     width: 400px;
     background-size: 100% 100%;
 }
@@ -19,5 +21,52 @@
 }
 .card-tres{
     background-image: url('../../../../Images/SERV3_PRONTO.png');
+    
+}
+
+@media (max-width: 480px) {
+  .section-b-home{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     width:auto;
+     height:auto;
+     gap: 0px 2px;
+    }
+    
+.card-b-home{
+    margin-top: 10px;
+    margin-right: 10px;
+    flex-basis: 200;
+     border-radius: 5px;
+     width: 220px;
+     height: 200px;
+     background-size: 100% 100%;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .section-b-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width:auto;
+        height:auto;
+        gap: 0px 2px;
+       }
+       
+   .card-b-home{
+       margin-top: 10px;
+       margin-right: 10px;
+       flex-basis: 200;
+        border-radius: 5px;
+        width: 310px;
+        height: 310px;
+        background-size: 100% 100%;
+       }
+
     
 }

@@ -47,7 +47,6 @@
 .section-c-home-textos-paragrafo {
     font-size: 18px;
 }
-
 @media (max-width: 899px) {
     .section-c-home {
         flex-direction: column;

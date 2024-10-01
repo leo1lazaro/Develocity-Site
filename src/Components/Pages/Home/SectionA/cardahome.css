@@ -24,3 +24,21 @@
     font-size: 22px;
     font-family: var(--font-principal);
 }
+
+@media (max-width:480px) {
+    .card-section-a-home>img{
+        margin-top: 10px;
+        width: 100px;
+        flex-basis: 200;
+        
+    }
+    .card-section-a-home> p{
+        color: white;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 70%;
+        font-size: 12px;
+        font-family: var(--font-principal);
+    }
+
+}
