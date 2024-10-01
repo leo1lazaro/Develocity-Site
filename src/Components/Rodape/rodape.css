@@ -1,73 +1,68 @@
-.rodape{
+.rodape {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     padding: 1em 0;
     gap: 1em;
 }
-.rodape-content{
+
+.rodape-content {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     padding: 1em 4em;
 }
-.rodape-primeira-section{
+
+.rodape-primeira-section {
     display: flex;
     flex-direction: column;
     text-align: start;
     place-self: center;
     margin-top: 1em;
 }
-.rodape-imagens-primeira-section{
+
+.rodape-imagens-primeira-section {
     margin-top: 1em;
 }
-.rodape-imagens-primeira-section img{
+
+.rodape-imagens-primeira-section img {
     width: 40px;
     margin-right: 1em;
 }
-.rodape-info{
+
+.rodape-info {
     place-self: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
 }
-.rodape-img-final{
+
+.rodape-img-final {
     place-self: center;
 }
-.rodape-mapa-do-site h2,.rodape-contato h2{
+
+.rodape-mapa-do-site h2, .rodape-contato h2 {
     margin: 1em 0 0 0;
-} 
-
-@media (max-width:480px) {
-    .rodape{
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .rodape-content{
-        display: flex;
-        flex-direction: row;
-    }
-    .rodape-primeira-section p{
-        display: none;
-
-    }
-    .rodape-imagens-primeira-section{
-        
-
-    }
-    .rodape-imagens-primeira-section img{
-       
-    }
-    .rodape-info{
-        display: none;
-    }
-    .rodape-img-final{
-        display:none;
-    }
-    .rodape-mapa-do-site h2,.rodape-contato h2{
-        
-    } 
-
 }
 
+@media (max-width: 720px) {
+    .rodape-content {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .rodape-info {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1em;
+    }
+
+    .rodape-imagens-primeira-section img {
+        width: 30px;
+        margin-right: 0.5em;
+    }
+
+    .rodape-primeira-section, .rodape-img-final {
+        text-align: center;
+    }
+}

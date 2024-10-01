@@ -60,12 +60,12 @@
     transform: translateY(-11px) rotate(-45deg);
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
     .links {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 4em;
+        top: 6em;
         right: 0;
         background-color: white;
         width: 100%;
@@ -94,7 +94,7 @@
     }
 }
 
-@media (min-width: 630px) {
+@media (min-width: 720px) {
     .navbar {
         position: fixed;
         width: 100%;
