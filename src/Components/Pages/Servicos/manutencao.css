@@ -1,0 +1,15 @@
+.manutencao{
+    margin-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 0 4em;
+    align-items: center;
+    justify-content: space-around;
+}
+.manutencao >img{
+    width: 200px;
+}
+.manutencao p{
+    width: 350px;
+}

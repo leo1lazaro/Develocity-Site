@@ -18,7 +18,7 @@ function Navbar() {
       <div className={`links ${menuOpen ? 'active' : ''}`}>
         <a href='#1' onClick={() => setPaginaAtual('home')}>Início</a>
         <a href='#2' onClick={() => setPaginaAtual('quemSomos')}>Quem somos</a>
-        <a href='#3' onClick={() => setPaginaAtual('Servicos')}>Serviços</a>
+        <a href='#3' onClick={() => setPaginaAtual('servicos')}>Serviços</a>
         <a href='#4' onClick={() => setPaginaAtual('contatos')}>Contatos</a>
       </div>
       <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
