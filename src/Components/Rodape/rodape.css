@@ -37,3 +37,37 @@
 .rodape-mapa-do-site h2,.rodape-contato h2{
     margin: 1em 0 0 0;
 } 
+
+@media (max-width:480px) {
+    .rodape{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .rodape-content{
+        display: flex;
+        flex-direction: row;
+    }
+    .rodape-primeira-section p{
+        display: none;
+
+    }
+    .rodape-imagens-primeira-section{
+        
+
+    }
+    .rodape-imagens-primeira-section img{
+       
+    }
+    .rodape-info{
+        display: none;
+    }
+    .rodape-img-final{
+        display:none;
+    }
+    .rodape-mapa-do-site h2,.rodape-contato h2{
+        
+    } 
+
+}
+

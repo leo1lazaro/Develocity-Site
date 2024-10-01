@@ -42,3 +42,41 @@
 .section-c-home-textos-paragrafo{
     font-size: 18px;
 }
+
+@media (min-width:480px) {
+    .section-c-home{
+        min-height: 65vh;
+        width: 100vw;
+        padding: 2em 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #131313;
+        overflow: hidden;
+    }
+    .section-c-home-img{
+        place-self: center;
+    }
+    .section-c-home-img img{
+        width: 200px;
+    }
+    .section-c-home-textos{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 1.5em;
+        align-items: center;
+        color: white;
+        font-family: var(--font-principal);
+        text-align: center;
+    }
+    .section-c-home-textos-titulo{
+        font-size: 20px;
+    }
+    .section-c-home-textos-paragrafo{
+        font-size: 10px;
+    }
+    
+    
+}
