@@ -45,6 +45,25 @@
     margin: 1em 0 0 0;
 }
 
+@media (max-width: 480px){
+    .rodape-primeira-section>p {
+     display: none;
+    }
+
+
+    .rodape-info {
+     display: none;
+    }
+
+    .rodape-img-final {
+        display: none;
+    }
+
+
+    
+
+}
+
 @media (max-width: 720px) {
     .rodape-content {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

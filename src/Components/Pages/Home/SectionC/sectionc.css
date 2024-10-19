@@ -47,6 +47,7 @@
 .section-c-home-textos-paragrafo {
     font-size: 18px;
 }
+
 @media (max-width: 899px) {
     .section-c-home {
         flex-direction: column;
@@ -70,4 +71,22 @@
     .section-c-home-textos-paragrafo {
         font-size: 16px;
     }
+}
+
+@media (max-width: 480px) {
+
+    .section-c-home-img img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .section-c-home-textos-titulo {
+        font-size: 20px;
+    }
+
+    .section-c-home-textos-paragrafo {
+        font-size: 12px;
+        width: 350px;
+    }
+
 }

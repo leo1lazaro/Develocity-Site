@@ -19,3 +19,17 @@
     margin-top: 2em;
     font-size: 20px;
 }
+
+@media (max-width: 480px) {
+    .botao-laranja{
+        background-color: #EF5702;
+        width: 170px;
+        height: 50px;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        font-family: var(--font-principal);
+        margin-top: 2em;
+        font-size: 15px;
+    } 
+}
