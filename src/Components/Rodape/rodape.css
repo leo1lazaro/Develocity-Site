@@ -46,6 +46,7 @@
 }
 
 @media (max-width: 480px){
+
     .rodape-primeira-section>p {
      display: none;
     }
@@ -61,6 +62,24 @@
 
 
     
+
+}
+
+@media (min-width: 481px) and (max-width: 718px){
+    .rodape-primeira-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+   
+       .rodape-info {
+        display: none;
+       }
+   
+       .rodape-img-final {
+           display: none;
+       }
 
 }
 

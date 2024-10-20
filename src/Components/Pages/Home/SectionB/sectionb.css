@@ -47,6 +47,28 @@
 
 }
 
+@media (min-width: 481px) and (max-width: 718px){
+    .section-b-home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width:auto;
+        height:auto;
+        gap: 0px 2px;
+       }
+       
+   .card-b-home{
+       margin-top: 10px;
+       margin-right: 10px;
+       flex-basis: 200;
+        border-radius: 5px;
+        width: 320px;
+        height: 290px;
+        background-size: 100% 100%;
+       }
+}
+
 @media (min-width:992px) and (max-width:1199px) {
     .section-b-home{
         display: flex;
