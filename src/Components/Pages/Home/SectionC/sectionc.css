@@ -90,3 +90,22 @@
     }
 
 }
+
+@media (min-width: 481px) and (max-width: 718px){
+    .section-c-home-img img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .section-c-home-textos-titulo {
+        font-size: 30px;
+    }
+
+    .section-c-home-textos-paragrafo {
+        font-size: 16px;
+        width: auto;
+        max-width: 500px;
+    }
+
+
+}
