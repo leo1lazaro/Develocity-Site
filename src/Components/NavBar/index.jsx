@@ -20,6 +20,7 @@ function Navbar() {
         <a href='#2' onClick={() => setPaginaAtual('quemSomos')}>Quem somos</a>
         <a href='#3' onClick={() => setPaginaAtual('servicos')}>Serviços</a>
         <a href='#4' onClick={() => setPaginaAtual('contatos')}>Contatos</a>
+        <a href='#4' onClick={() => setPaginaAtual('cursos')}>Cursos</a>
       </div>
       <div className={`hamburger ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <span></span>

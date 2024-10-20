@@ -1,0 +1,14 @@
+.sectionbcursos-titulo{
+    margin-top: 2em;
+    text-align: center;
+}
+.sectionbcursos-cursos{
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 0 2em;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1.8em;
+    width: 100%;
+}

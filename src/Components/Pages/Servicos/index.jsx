@@ -1,6 +1,7 @@
 import React from 'react'
 import img001 from '../../../Images/Manutencao.jpg'
 import './manutencao.css'
+import QuadroInfo from '../../QuadroInfo'
 
 const Servicos = () => {
   return (

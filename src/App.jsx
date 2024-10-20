@@ -7,6 +7,7 @@ import Servicos from './Components/Pages/Servicos';
 import QuemSomos from './Components/Pages/QuemSomos';
 import { useContext } from 'react';
 import PaginaAtualContext from './Contexts/PaginaAtualContext';
+import Cursos from './Components/Pages/Cursos';
 
 function App() {
   
@@ -23,6 +24,8 @@ function App() {
         <Servicos />}
         {paginaAtual === 'quemSomos' &&
         <QuemSomos />}
+        {paginaAtual === 'cursos' &&
+        <Cursos />}
       <Rodape />
     </div>
   );

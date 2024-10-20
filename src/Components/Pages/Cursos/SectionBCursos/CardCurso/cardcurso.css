@@ -1,0 +1,21 @@
+.cardcurso{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 1em 2em;
+    height: 200px;
+    width: 32%;
+    min-width: 450px;
+    gap: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.cardcurso:hover{
+    transform: scale(1.05);
+}
+.cardcurso-icone img{
+    height: 100px;
+}

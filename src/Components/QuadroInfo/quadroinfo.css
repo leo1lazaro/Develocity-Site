@@ -1,0 +1,23 @@
+.quadro-info{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.quadro-info-data, .quadro-info-duracao{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.quadro-info-data-textos>span, .quadro-info-duracao-textos>span{
+    font-weight: bold;
+    font-size: 14px;
+}
+.quadro-info-data-textos>p, .quadro-info-duracao-textos>p{
+    /* textos info cursos */
+}
