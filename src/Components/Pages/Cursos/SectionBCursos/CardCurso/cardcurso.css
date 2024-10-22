@@ -1,4 +1,4 @@
-.cardcurso{
+.cardcurso {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,15 +11,17 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
     transition: .5s;
-
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.cardcurso:hover{
+
+.cardcurso:hover {
     transform: scale(1.05);
 }
-.cardcurso-icone img{
+
+.cardcurso-icone img {
     height: 100px;
 }
-
 @media (max-width:480px){
     .cardcurso{
         display: flex;
@@ -41,4 +43,29 @@
         height: 70px;
     }
 
+}
+.cardcurso h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.cardcurso p {
+    text-align: justify;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .cardcurso {
+        flex-direction: column;
+        align-items: center; 
+        padding: 1em;
+        width: 90%;
+        min-width: unset;
+        margin: 1em auto;
+        height: auto;
+    }
+
+    .cardcurso-icone img {
+        height: 80px;
+    }
 }

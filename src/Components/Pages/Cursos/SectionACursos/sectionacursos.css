@@ -1,56 +1,75 @@
-.sectionacursos{
-    background-image: url('../../../../Images/CapaCursos.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    color:white;
+.sectionacursos { 
+    background-image: url('../../../../Images/CapaCursos.png'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 400px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
     padding: 0 1em;
-}
-.sectionacursos-textos-esquerda{
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    width: 35%;
-    padding: 0 2em;
-}
-.sectionacursos-textos-esquerda span{
-    font-size: 20px;
-    font-weight: bold;
-}
-.sectionacursos-textos-esquerda h3{
-    font-size: 60px;
-    margin-top: -.3em;
-}
-.sectionacursos-textos-esquerda-destaque{
-    text-align: end;
-    width: 100%;
-    padding-left:8em;
+} 
 
+.sectionacursos-textos-esquerda,
+.sectionacursos-textos-direita { 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    width: 100%; 
+    padding: 0 2em;
+} 
+
+.sectionacursos-textos-esquerda span,
+.sectionacursos-textos-direita span { 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #FFFAFA;
+} 
+
+.sectionacursos-textos-esquerda h3,
+.sectionacursos-textos-direita h3 { 
+    font-size: 40px;
+    margin-top: -.3em; 
+    color: #FFFAFA;
+} 
+
+.sectionacursos-textos-esquerda-destaque,
+.sectionacursos-textos-direita-destaque { 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold; 
+    color: #FFD700;
+    padding: 0 0.5em;
+    display: inline-block;
+    margin: 0 auto; 
 }
-.sectionacursos-textos-direita{
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-}
-.sectionacursos-textos-direita span{
-    font-size: 20px;
-    font-weight: bold;
-}
-.sectionacursos-textos-direita h3{
-    font-size: 60px;
-    margin-top: -.3em;
-}
-.sectionacursos-textos-direita-destaque{
-    text-align: end;
-    width: 100%;
-    padding-left:8em;
-    background-color: black;
-    font-weight: bold;
-    padding: 0 1em;
+
+@media only screen and (max-width: 768px) { 
+    .sectionacursos { 
+        flex-direction: column; 
+        height: auto; 
+        padding: 1em; 
+    } 
+
+    .sectionacursos-textos-esquerda,
+    .sectionacursos-textos-direita { 
+        text-align: center; 
+        width: 100%; 
+        padding: 1em;
+    } 
+
+    .sectionacursos-textos-esquerda-destaque,
+    .sectionacursos-textos-direita-destaque { 
+        padding-left: 0; 
+        padding: 0.5em 1em; 
+        text-align: center; 
+    }
+
+    .sectionacursos img { 
+        width: 100%;
+        height: auto;
+    } 
 }
 
 @media (max-width:480px){
