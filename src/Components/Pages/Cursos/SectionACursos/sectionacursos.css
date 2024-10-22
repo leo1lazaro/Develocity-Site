@@ -71,3 +71,55 @@
         height: auto;
     } 
 }
+
+@media (max-width:480px){
+ .sectionacursos{
+      height: 200px;
+    }
+    .sectionacursos-textos-esquerda{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 70%;
+        padding: 0em 0em;
+        margin-bottom: 10px;
+    }
+    .sectionacursos-textos-esquerda span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .sectionacursos-textos-esquerda h3{
+        font-size: 23px;
+        margin-top: -.3em;
+        gap: 10px;
+    }
+    .sectionacursos-textos-esquerda-destaque{
+        text-align: start;
+        width: 100%;
+        padding-left:1em;
+    
+    }
+    .sectionacursos-textos-direita{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    .sectionacursos-textos-direita span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .sectionacursos-textos-direita h3{
+        font-size: 20px;
+        margin-top: -.3em;
+    }
+    .sectionacursos-textos-direita-destaque{
+        text-align: end;
+        width: 100%;
+        padding-left:8em;
+        background-color: black;
+        font-weight: bold;
+        padding: 0 1em;
+        margin-bottom: 0px
+    }
+
+}

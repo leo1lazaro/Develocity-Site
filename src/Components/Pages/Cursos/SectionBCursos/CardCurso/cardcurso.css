@@ -22,7 +22,28 @@
 .cardcurso-icone img {
     height: 100px;
 }
+@media (max-width:480px){
+    .cardcurso{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2em 2em;
+        min-height: 280px;
+        width: 32%;
+        min-width: 300px;
+        gap: 0em;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       font-size: 15px;
+    }
+    .cardcurso:hover{
+        transform: scale(1.05);
+    }
+    .cardcurso-icone img{
+        height: 70px;
+    }
 
+}
 .cardcurso h3 {
     text-align: center;
     width: 100%;
@@ -46,17 +67,5 @@
 
     .cardcurso-icone img {
         height: 80px;
-    }
-}
-
-@media (max-width: 480px) {
-    .cardcurso {
-        padding: 1em;
-        width: 100%;
-        height: auto;
-    }
-
-    .cardcurso-icone img {
-        height: 60px;
     }
 }

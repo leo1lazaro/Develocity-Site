@@ -13,7 +13,12 @@
     gap: 1.8em;
     width: 100%;
 }
-
+@media (max-width:480px){
+    .sectionbcursos-cursos{
+        display: flex;
+        justify-content: center;
+    }
+}
 .sectionbcursos-cursos .card-curso {
     background-color: #fff;
     border-radius: 8px;
@@ -44,13 +49,6 @@
 
     .sectionbcursos-cursos .card-curso {
         flex-basis: calc(50% - 1em);
-        margin-bottom: 1em;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .sectionbcursos-cursos .card-curso {
-        flex-basis: 100%;
         margin-bottom: 1em;
     }
 }
