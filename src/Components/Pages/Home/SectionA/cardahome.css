@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Varino';
     src: url('../../../../fonts/Varino.ttf') format('truetype'); 
     font-weight: normal;
@@ -6,7 +6,7 @@
 }
 :root{
     --font-principal: 'Varino', sans-serif;
-}
+} */
 .card-section-a-home{
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
     text-align: center;
     width: 70%;
     font-size: 22px;
-    font-family: var(--font-principal);
+    /* font-family: var(--font-principal); */
 }
 
 @media (max-width:480px) {

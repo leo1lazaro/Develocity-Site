@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Varino';
     src: url('../../../../fonts/Varino.ttf') format('truetype');
     font-weight: normal;
@@ -7,7 +7,7 @@
 
 :root {
     --font-principal: 'Varino', sans-serif;
-}
+} */
 
 .section-a-home {
     background-image: url('../../../../Images/IMAGEM INICIAL.jpg');
@@ -51,7 +51,7 @@
     color: white;
     font-size: 60px;
     max-width: 60%;
-    font-family: var(--font-principal);
+    /* font-family: var(--font-principal); */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
@@ -60,7 +60,7 @@
     color: white;
     font-size: 30px;
     max-width: 50%;
-    font-family: var(--font-principal);
+    /* font-family: var(--font-principal); */
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
@@ -132,13 +132,13 @@
         color: white;
         font-size: 30px;
         max-width: 60%;
-        font-family: var(--font-principal);
+        /* font-family: var(--font-principal); */
     }
     .home-itens-texto{
         color: white;
         font-size: 15px;   
         max-width: 50%;
-        font-family: var(--font-principal);
+        /* font-family: var(--font-principal); */
     }
 
 }
@@ -178,13 +178,13 @@
         color: white;
         font-size: 30px;
         max-width: 60%;
-        font-family: var(--font-principal);
+        /* font-family: var(--font-principal); */
     }
     .home-itens-texto{
         color: white;
         font-size: 16px;   
         max-width: 50%;
-        font-family: var(--font-principal);
+        /* font-family: var(--font-principal); */
     }
         
 }

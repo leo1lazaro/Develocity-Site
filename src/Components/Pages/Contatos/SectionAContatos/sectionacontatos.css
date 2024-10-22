@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Varino';
     src: url('../../../../fonts/Varino.ttf') format('truetype'); 
     font-weight: normal;
@@ -6,7 +6,7 @@
 }
 :root{
     --font-principal: 'Varino', sans-serif;
-}
+} */
 
 .section-a-contatos{
     display: flex;
@@ -18,7 +18,7 @@
     color: white;
     padding: 4em 2em;
     min-height: 88vh;
-    font-family: var(--font-principal);
+    /* font-family: var(--font-principal); */
     margin-top: 120px;
 }
 .section-a-contatos-top{

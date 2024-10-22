@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Varino';
     src: url('../../../src/fonts/Varino.ttf') format('truetype');
     font-weight: normal;
@@ -6,7 +6,7 @@
 }
 :root{
     --font-principal: 'Varino', sans-serif;
-}
+} */
 
 .botao-laranja{
     background-color: #EF5702;
@@ -15,7 +15,7 @@
     border-radius: 10px;
     color: white;
     border: none;
-    font-family: var(--font-principal);
+    /* font-family: var(--font-principal); */
     margin-top: 2em;
     font-size: 20px;
 }
@@ -28,7 +28,7 @@
         border-radius: 10px;
         color: white;
         border: none;
-        font-family: var(--font-principal);
+        /* font-family: var(--font-principal); */
         margin-top: 2em;
         font-size: 15px;
     } 
