@@ -12,3 +12,10 @@
     gap: 1.8em;
     width: 100%;
 }
+
+@media (max-width:480px){
+    .sectionbcursos-cursos{
+        display: flex;
+        justify-content: center;
+    }
+}
