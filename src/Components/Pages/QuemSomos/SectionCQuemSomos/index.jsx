@@ -1,8 +1,11 @@
 import React from 'react'
+import './sectioncquemsomos.css'
 
 const SectionCQuemSomos = () => {
   return (
-    <h2>NOSSO TIME</h2>
+    <section className="section-c-quemsomos">
+        <h2>Nosso time</h2>
+    </section>
   )
 }
 

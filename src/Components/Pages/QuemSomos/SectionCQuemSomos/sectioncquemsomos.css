@@ -1,16 +1,16 @@
-.section-a-quemsomos{
+.section-c-quemsomos{
     margin-top: 120px;
     background-image: url('../../../../Images/capaQuemSomos.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.section-a-quemsomos h2{
+.section-c-quemsomos h2{
     color: white;
     font-size: 60px;
     font-weight: bold;
