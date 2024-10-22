@@ -1,0 +1,16 @@
+.section-d-quemsomos{
+    margin-top: 150px;
+}
+.section-d-quemsomos h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 40px 0 40px 0;
+}
+.container-cards-membros{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 6em;
+    gap: 1em;
+}

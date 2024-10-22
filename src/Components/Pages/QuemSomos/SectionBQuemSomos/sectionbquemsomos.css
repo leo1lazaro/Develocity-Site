@@ -1,0 +1,17 @@
+.section-b-quemsomos{
+    width: 100%;
+    margin: 200px 0 200px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.section-b-quemsomos-objetivos, .section-b-quemsomos-valores{
+    display: flex;
+    flex-direction: column;
+}
+.section-b-quemsomos-objetivos h3, .section-b-quemsomos-valores h3{
+    font-size: 40px;
+}
+.section-b-quemsomos-objetivos p, .section-b-quemsomos-valores p{
+    font-size: 25px;
+    width: 500px;
+}

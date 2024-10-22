@@ -1,0 +1,33 @@
+.card-time{
+    display: flex;
+    width: 850px;
+    padding: 1em 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: space-around;
+    gap: 1em;
+}
+.card-time-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.card-time-textos{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-time-textos-principal{
+    display: flex;
+    justify-content: space-between;
+}
+.card-time-textos-principal h4{
+    font-size: 30px;
+}
+.card-time-textos-principal span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.card-time-textos-descricao p{
+    font-size: 20px;
+}
