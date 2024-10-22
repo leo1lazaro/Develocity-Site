@@ -5,12 +5,16 @@
     align-items: center;
     padding: 1em 0;
     gap: 1em;
+    background-color: #fff;
+    color: #333; 
+    width: 100%;
 }
 
 .rodape-content {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     padding: 1em 4em;
+    width: 100%;
 }
 
 .rodape-primeira-section {
@@ -43,44 +47,37 @@
 
 .rodape-mapa-do-site h2, .rodape-contato h2 {
     margin: 1em 0 0 0;
+    color: #333; 
 }
 
-@media (max-width: 480px){
-
-    .rodape-primeira-section>p {
-     display: none;
+@media (max-width: 480px) {
+    .rodape-primeira-section > p {
+        display: none;
     }
 
-
     .rodape-info {
-     display: none;
+        display: none;
     }
 
     .rodape-img-final {
         display: none;
     }
-
-
-    
-
 }
 
-@media (min-width: 481px) and (max-width: 718px){
+@media (min-width: 481px) and (max-width: 718px) {
     .rodape-primeira-section {
         display: flex;
         align-items: center;
         justify-content: center;
-       
     }
-   
-       .rodape-info {
-        display: none;
-       }
-   
-       .rodape-img-final {
-           display: none;
-       }
 
+    .rodape-info {
+        display: none;
+    }
+
+    .rodape-img-final {
+        display: none;
+    }
 }
 
 @media (max-width: 720px) {
@@ -102,5 +99,12 @@
 
     .rodape-primeira-section, .rodape-img-final {
         text-align: center;
+    }
+}
+
+@media (min-width: 721px) {
+    .rodape-content {
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 1em 4em;
     }
 }
