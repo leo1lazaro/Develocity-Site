@@ -101,13 +101,4 @@
     }
 }
 
-@media (min-width: 720px) {
-    .links {
-        display: flex;
-        gap: 20px;
-    }
 
-    .hamburger {
-        display: none;
-    }
-}

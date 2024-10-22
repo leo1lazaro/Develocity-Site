@@ -5,10 +5,11 @@
 
 .sectionbcursos-cursos {
     margin-top: 2em;
-    margin-left: 1em;
+    margin-left: 0em;
     padding: 0 2em;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1.8em;
     width: 100%;
@@ -19,7 +20,7 @@
         justify-content: center;
     }
 }
-.sectionbcursos-cursos .card-curso {
+.sectionbcursos-cursos{
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -35,20 +36,24 @@
     border-radius: 8px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 720px) and (max-width:860px){
     .sectionbcursos {
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
+        
     }
 
     .sectionbcursos-cursos {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         margin-left: 0;
         padding: 0 1em;
         gap: 1em;
     }
 
     .sectionbcursos-cursos .card-curso {
-        flex-basis: calc(50% - 1em);
-        margin-bottom: 1em;
+        
     }
 }

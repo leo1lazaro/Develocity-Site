@@ -66,49 +66,24 @@
 }
 
 @media (max-width: 720px) {
-    .section-a-home {
-        padding: 1em;
-        margin-top: 0;
-    }
-
-    .home-itens-titulo {
-        font-size: 40px;
-        max-width: 100%;
-        margin-bottom: 1em;
-    }
-
-    .home-itens-texto {
-        font-size: 20px;
-        max-width: 100%;
-    }
-
-    .cards-section-a-home {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 0.5em;
-    }
-
-    .cards-section-a-home > div {
-        width: 100%;
-    }
-
-    .section-a-home button {
-        width: 100%;
-        height: 40px;
-    }
+    
 }
 
 @media (max-width:480px) {
     .section-a-home{
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width: 100%;
-        height: auto;
+        min-width: 300px;
+        max-width: 480px;
+        min-height: 200px;
+        max-height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding: 2em 2em;
         gap: 0em;
-        margin-top: 10px;
+        margin-top: 1   0px;
+        margin-top: 120px;
     }
     .section-a-home button{
         background-color: #EF5702;
@@ -147,14 +122,15 @@
     .section-a-home{
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width: 100%;
+        min-width: 481px;
+        max-width:718px;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         padding: 2em 1em;
         gap: 0em;
-        margin-top: 1px;
+        margin-top: 120px;
     }
     .section-a-home button{
         background-color: #EF5702;
@@ -187,4 +163,36 @@
         /* font-family: var(--font-principal); */
     }
         
+}
+
+@media (min-width: 720px) and (max-width: 860px) {
+    .section-a-home {
+        padding: 1em;
+        margin-top: 120px;
+    }
+
+    .home-itens-titulo {
+        font-size: 40px;
+        max-width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .home-itens-texto {
+        font-size: 20px;
+        max-width: 100%;
+    }
+
+    .cards-section-a-home {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 0.5em;
+    }
+
+    .cards-section-a-home > div {
+        width: 100%;
+    }
+
+    .section-a-home button {
+        width: 130px;
+        height: 60px;
+    }
 }
