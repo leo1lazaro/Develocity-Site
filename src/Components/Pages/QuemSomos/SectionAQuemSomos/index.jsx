@@ -1,14 +1,12 @@
-import React from 'react'
-import './sectionaquemsomos.css';
-
+import React from "react";
+import "./sectionaquemsomos.css";
 
 const SectionAQuemSomos = () => {
-
   return (
     <section className="section-a-quemsomos">
-      <h1>Estamos em manutenção e em breve estaremos de cara nova</h1>
+        <h2>Nossos valores e objetivos</h2>
     </section>
-  )
-}
+  );
+};
 
-export default SectionAQuemSomos  
+export default SectionAQuemSomos;
