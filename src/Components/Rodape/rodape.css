@@ -104,9 +104,8 @@
     }
 }
 
-@media (min-width: 721px) {
-    .rodape-content {
-        grid-template-columns: 1fr 2fr 1fr;
-        padding: 1em 4em;
+@media (min-width: 721px) and (max-width: 860px){
+    .rodape-mapa-do-site{
+        display: none;
     }
 }

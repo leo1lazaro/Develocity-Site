@@ -22,14 +22,14 @@
 
 .sectionacursos-textos-esquerda span,
 .sectionacursos-textos-direita span { 
-    font-size: 20px; 
+    font-size: 40px; 
     font-weight: bold; 
     color: #FFFAFA;
 } 
 
 .sectionacursos-textos-esquerda h3,
 .sectionacursos-textos-direita h3 { 
-    font-size: 40px;
+    font-size: 60px;
     margin-top: -.3em; 
     color: #FFFAFA;
 } 
@@ -122,4 +122,25 @@
         margin-bottom: 0px
     }
 
+}
+
+@media (min-width: 720px) and (max-width:860px){
+    .sectionacursos-textos-esquerda span{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .sectionacursos-textos-esquerda h3{
+        font-size: 50px;
+        margin-top: -.3em;
+        gap: 10px;
+    }
+    
+    .sectionacursos-textos-direita span{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .sectionacursos-textos-direita h3{
+        font-size: 50px;
+        margin-top: -.3em;
+    }
 }
